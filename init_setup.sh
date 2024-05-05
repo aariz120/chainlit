@@ -1,8 +1,8 @@
 echo [$(date)]: "START"
 echo [$(date)]: "creating a conda env with python 3.10"
-conda create -p ./env python=3.10 -y
-echo [$(date)]: "created conda env"
-source activate ./env
+conda create -p ./envchainlit python=3.10 -y
+echo [$(date)]: "created conda envchainlit"
+source activate ./envchainlit
 echo [$(date)]: "activated conda env"
 echo [$(date)]: "installing requirements"
 pip install -r requirements.txt
